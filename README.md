@@ -3,7 +3,7 @@
 ## NER
 NER stands for Named Entity Recognition. It is a natural language processing (NLP) technique used to identify and classify named entities in text into predefined categories such as person names, organizations, locations, medical terms, and more.
 
-In this project, we implement one of the state-of-the-art NLP models: [biLSTM-CRF](./Model/biLSTM-CRF.ipynb) and we reproduce the results of [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/pdf/1508.01991.pdf).
+In this project, we implement one of the state-of-the-art NLP models: [biLSTM-CRF](./Model/biLSTM-CRF.ipynb) and we reproduce the results of [Bidirectional LSTM-CRF Models for Sequence Tagging](https://arxiv.org/pdf/1508.01991.pdf) (see [CoNLL2003 Task](./CoNLL2003/conll2003_task.ipynb)).
 
 ## Chrome Extension
 An application of NER to help users to read a web page (in this project: https://english.news.cn) by highlighting entities in it.
