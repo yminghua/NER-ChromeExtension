@@ -1,0 +1,65 @@
+.body {
+    width: 500px;
+}
+
+.entityContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.entity {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    font-size: 18px;
+    color: white;
+    border-radius: 6px 0 0 6px;
+    width: 170px;
+}
+
+.geo {
+    background-color: rgb(235, 235, 25);
+}
+.org {
+    background-color: plum;
+}
+.per {
+    background-color: lightskyblue;
+}
+.gpe {
+    background-color: rgb(220, 198, 176);
+}
+.tim {
+    background-color: lightcoral;
+}
+.art {
+    background-color: lightpink;
+}
+.eve {
+    background-color: lightseagreen;
+}
+.nat {
+    background-color: lightsalmon;
+}
+
+.shortname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(241, 239, 239);
+    border-radius: 0 6px 6px 0;
+}

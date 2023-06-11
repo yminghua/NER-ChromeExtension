@@ -1,0 +1,11 @@
+tensorflow==1.14
+keras==2.2.5
+protobuf==3.19.0
+h5py==2.10
+pandas
+scikit-learn
+matplotlib
+plot_keras_history
+git+https://www.github.com/keras-team/keras-contrib.git
+Django
+django-cors-headers

@@ -1,0 +1,26 @@
+{
+  "name": "Named Entity Recognition Marker",
+  "version": "0.1.0",
+  "description": "NER stands for Named Entity Recognition, which is a subtask of natural language processing (NLP) that involves identifying and classifying named entities in unstructured text. Named entities are words or phrases that refer to specific types of entities, such as people, organizations, locations, dates, and more.",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://english.news.cn/*", "http://127.0.0.1:8000/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://english.news.cn/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "NER Marker",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
